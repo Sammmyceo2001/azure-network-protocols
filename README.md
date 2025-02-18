@@ -8,7 +8,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
+- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com/watch?v=Mu_2UnOdVHM)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -25,33 +25,33 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Creating Virtual Machines
+- Downloading WireShark
+- Opening up PowerShell
+- Observing ICMP, etc traffic
 
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/805b00a4-ecb1-4d5a-9632-6bce4b7381e1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This pictyure shows the creation of the Virtual Machines such as Ubuntu and Windows 10 and making sure both VMs run in the same subnet mask so data could be transmitted from one VM to Another
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/5ae30599-e3bc-4480-ba42-896bc36d4149" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This picture shows Wireshark and how it looks when it's downloaded, the blue shark fin at the top right is where the packet captures happens and that's where you could filter for Network Protocols
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/fdc697dd-2bfe-4265-a589-d7466e07a1fc" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lastly this picture shows the packet capture without filtering it and letting the packets of data do their job
 </p>
 <br />
